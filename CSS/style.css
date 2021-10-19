@@ -12,19 +12,19 @@
 }
 
 body {
-  font-family: var(--poppins);
   background-color: var(--veryLightGray);
+  font-family: var(--poppins);
   font-size: 15px;
 }
 
 footer {
-  text-align: center;
   margin: 2rem 2rem;
+  text-align: center;
 }
 
 @media screen and (min-width: 1200px) {
   body {
-    max-width: 75rem;
     margin: 0 auto;
+    max-width: 75rem;
   }
 }
