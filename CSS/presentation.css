@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5.5rem 2rem 4.5rem 2rem;
+  margin: 3.5rem 2rem 3.5rem 2rem;
   text-align: center;
 }
 
@@ -26,4 +26,22 @@
   line-height: 1.5rem;
   margin-top: 1.5rem;
   max-width: 298px;
+}
+
+@media screen and (min-width: 1200px) {
+  .presentation {
+    margin-top: 6rem;
+  }
+
+  .title__1 {
+    font-size: 2.2rem;
+  }
+
+  .title__2 {
+    font-size: 2.2rem;
+  }
+
+  .text {
+    max-width: 500px;
+  }
 }

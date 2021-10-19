@@ -13,6 +13,7 @@
   border-radius: 8px;
   padding: 2rem;
   max-width: 298px;
+  min-height: 155px;
 }
 
 .card__title {
@@ -36,11 +37,13 @@
 }
 
 .card__supervisor {
-  border-top: 4px solid var(--cyan);
+  border-top: .3rem solid var(--cyan);
+  
 }
 
 .card__teamBuilder {
   border-top: 4px solid var(--red);
+  margin-bottom: 2rem;
 }
 
 .card__karma {
@@ -49,4 +52,29 @@
 
 .card__calculator {
   border-top: 4px solid var(--blue);
+}
+
+@media screen and (min-width: 1200px) {
+  
+
+  .cards {
+    flex-direction: row;
+  }
+
+  .card__supervisor {
+    
+  }
+
+  .card__teamBuilder {
+    
+    margin-bottom: 2rem;
+  }
+
+  .card__karma {
+    
+  }
+
+  .card__calculator {
+    
+  }
 }
